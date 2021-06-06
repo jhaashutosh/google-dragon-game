@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#heading{
+    font-style: italic;
+    color: rgb(119, 9, 9);
+    font-family:cursive;
+    margin-top: 100px;
+    text-align: center;
+}
+#startbtn{
+    font-size: large;
+    font-family:cursive;
+    padding: 1px;
+    text-align: center;
+    margin:auto;
+    border-radius: 20%;
+    border:1px solid black;
+}
+.container{
+    text-align: center;
+    
+   
+}
+
+#instructions{
+    font-style:italic;
+    color:rgb(0, 3, 8);
+    margin:auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    background-color:rgb(161, 161, 223);
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color:white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    
+}
+.start
+{
+    animation: block 1s infinite linear;
+}
+
+
+
+   
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
+

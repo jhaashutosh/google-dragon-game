@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <style>
+        body {
+          background-image: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="heading">Dragon Game</h1>
+    <h3 id="instructions">Click on start button</h3>
+    <div class="game" >
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <div class="container">
+        <button id="startbtn" onclick="start()">start</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
