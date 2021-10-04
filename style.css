@@ -5,7 +5,6 @@
 }
 
 #heading{
-    font-style: italic;
     color: rgb(119, 9, 9);
     font-family:cursive;
     margin-top: 100px;
@@ -14,30 +13,30 @@
 #startbtn{
     font-size: large;
     font-family:cursive;
-    padding: 1px;
+    padding: 6px 14px;
     text-align: center;
     margin:auto;
-    border-radius: 20%;
+    border-radius: 8px;
     border:1px solid black;
 }
 .container{
     text-align: center;
-    
+    margin-top: 12px;
    
 }
 
 #instructions{
-    font-style:italic;
     color:rgb(0, 3, 8);
-    margin:auto;
+    margin: 12px auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .game{
     width: 500px;
     height: 200px;
-    border: 1px solid black;
+    border: 6px solid #333333;
     margin: auto;
+    margin-bottom: 12px;
     background-color:rgb(161, 161, 223);
 }
 #character{
@@ -46,6 +45,7 @@
     background-color: black;
     position:relative;
     top: 150px;
+	left: 8px;
 }
 .animate{
     animation: jump 0.3s linear;
